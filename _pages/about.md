@@ -8,51 +8,71 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am **Weiwei Qi**, a second-year PhD student in Cyberspace Security at Zhejiang University, advised by
+[**Tianhang Zheng**](https://scholar.google.com/citations?user=Docv-hkAAAAJ&hl=en),
+[**Zhan Qin**](https://scholar.google.com/citations?user=5fa4lOQAAAAJ&hl=en),
+and [**Kui Ren**](https://scholar.google.com/citations?user=uuQA_rcAAAAJ&hl=en).
+I study how to make large language models safer and more reliable.
+My research includes both attack and defense, including jailbreak attacks, safety alignment, and efficient post-training for LLMs and agents.
+My goal is to help build safer, more reliable, and more trustworthy intelligent systems.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+<div class="research-tags">
+  <span class="research-tag">LLM Safety</span>
+  <span class="research-tag">Safety Alignment</span>
+  <span class="research-tag">Reinforcement Learning</span>
+  <span class="research-tag">Agent Safety</span>
+  <span class="research-tag">Jailbreak Red-Teaming</span>
+</div>
 
+<div class="section-note">
+  <a href="/files/Weiwei_Qi_CV_2026.pdf">CV</a> |
+  <a href="https://scholar.google.com/citations?user=KacN-IMAAAAJ&hl=en">Google Scholar</a>
+</div>
 
+<span class='anchor' id='news'></span>
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **2026.01**: Homepage and CV updated.
+- **2025.08**: Released MAJIC preprint on adaptive Markovian jailbreaking for black-box LLMs.
+- **2025.06**: Participated in training **DeepSeek-R1-Safe** on a 1024-GPU Ascend cluster.
 
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='publications'></span>
+# 📝 Publications
+<div class="pub-item">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2508.13048">MAJIC: Markovian Adaptive Jailbreaking via Iterative Composition of Diverse Innovative Strategies</a></div>
+  <div class="pub-authors"><strong>Weiwei Qi</strong>, Shuo Shao, Wei Gu, Tianhang Zheng, Puning Zhao, Zhan Qin, Kui Ren</div>
+  <div class="pub-meta">AAAI 2026 (CCF-A) | First Author</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2508.13048">
+      <img src="https://img.shields.io/badge/arXiv-2508.13048-b31b1b.svg" alt="arXiv">
+    </a>
+    <a href="https://github.com/LilanOvO/AAAI-2026-MAJIC">
+      <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
+    </a>
+  </div>
 </div>
+
+<div class="pub-item">
+  <div class="pub-title"><a href="/files/3666_Towards_Identification_an.pdf">Towards Identification and Intervention of Safety-Critical Parameters in Large Language Models</a></div>
+  <div class="pub-authors">Weiwei Qi, Zefeng Wu, Tianhang Zheng, Zikang Zhang, Xiaojun Jia, Zhan Qin, Kui Ren</div>
+  <div class="pub-meta">ACL 2026 Submission (CCF-A) | First Author</div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<span class='anchor' id='education'></span>
+# 🎓 Education
+- **Zhejiang University**: PhD in Cyberspace Security (ongoing, Year 2).
+- **Harbin Institute of Technology**: BEng in Computer Science and Technology.
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='projects'></span>
+# 🛠️ Projects
+- **2025.06**: DeepSeek-R1-Safe large-scale training (1024 Ascend GPUs), including environment deployment, safety data construction, and SFT for safety improvement.
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<span class='anchor' id='awards'></span>
+# 🏆 Awards
+- **2025.10**: Outstanding Graduate Student (Academic Innovation Award).
+- **2023.05**: Outstanding Prize, 2nd National College Students Olympic Mathematics Competition (Summer).
+- **2023.03**: Second Prize, National College Students Mathematics Competition Finals.
+- **2021.11**: First Prize, 13th National College Students Mathematics Competition.
+- **2021.11**: First Prize (Heilongjiang), National College Students Mathematical Contest in Modeling.
+- **2021.02** and **2022.01**: Honorable Mention, MCM/ICM.

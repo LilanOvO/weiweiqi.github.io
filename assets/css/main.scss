@@ -40,6 +40,11 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* Make the whole homepage more readable, similar to your classmates' pages. */
+html {
+    font-size: 17px;
+}
+
 .paper-box {
     display: flex;
     justify-content: left;
@@ -106,4 +111,86 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+/* Sidebar text wrapping to avoid overlapping into main content. */
+.author__urls li {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.35;
+}
+
+/* Homepage academic styling */
+.research-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin: .8rem 0 1rem 0;
+}
+
+.research-tag {
+    display: inline-block;
+    padding: .18rem .65rem;
+    border: 1px solid #cdd8ea;
+    border-radius: 999px;
+    background: #f7faff;
+    color: #1f3c73;
+    font-size: .84em;
+    font-weight: 600;
+}
+
+.section-note {
+    color: #596277;
+    font-size: 1em;
+    margin-bottom: .8rem;
+}
+
+.pub-item {
+    margin: 1rem 0;
+    padding: .95rem 1.1rem;
+    border: 1px solid #dfe5f1;
+    border-left: 4px solid #2b5ea8;
+    border-radius: 8px;
+    background: #fbfcff;
+}
+
+.pub-title {
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.pub-authors {
+    margin-top: .35rem;
+    color: #3f495a;
+}
+
+.pub-meta {
+    margin-top: .35rem;
+    color: #1f3c73;
+    font-weight: 700;
+}
+
+.pub-links {
+    margin-top: .25rem;
+    font-size: 1em;
+}
+
+.pub-link-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: .3rem;
+
+    svg {
+        vertical-align: middle;
+    }
+}
+
+.page__content h1 {
+    font-size: 1.95em;
+}
+
+.page__content p,
+.page__content li {
+    font-size: 1.04em;
 }
