@@ -33,12 +33,25 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 
 <span class='anchor' id='news'></span>
 # 🔥 News
-- **2026.01**: Homepage and CV updated.
-- **2025.08**: Released MAJIC preprint on adaptive Markovian jailbreaking for black-box LLMs.
-- **2025.06**: Participated in training **DeepSeek-R1-Safe** on a 1024-GPU Ascend cluster.
+- 🎉 **2026.04.06**: **Towards Identification and Intervention of Safety-Critical Parameters in Large Language Models** was accepted to ACL 2026 Findings.
+- 🥳 **2025.11.08**: **MAJIC: Markovian Adaptive Jailbreaking via Iterative Composition of Diverse Innovative Strategies** was accepted to AAAI 2026.
 
 <span class='anchor' id='publications'></span>
 # 📝 Publications
+<div class="pub-item">
+  <div class="pub-title"><a href="https://arxiv.org/abs/2604.08297v1">Towards Identification and Intervention of Safety-Critical Parameters in Large Language Models</a></div>
+  <div class="pub-authors"><strong>Weiwei Qi</strong>, Zefeng Wu, Tianhang Zheng, Zikang Zhang, Xiaojun Jia, Zhan Qin, Kui Ren</div>
+  <div class="pub-meta">ACL 2026 Findings (CCF-A) | First Author</div>
+  <div class="pub-links">
+    <a href="https://arxiv.org/abs/2604.08297v1">
+      <img src="https://img.shields.io/badge/arXiv-2604.08297-b31b1b.svg" alt="arXiv">
+    </a>
+    <a href="https://github.com/ZJU-LLM-Safety/SafeWeights-ACL">
+      <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
+    </a>
+  </div>
+</div>
+
 <div class="pub-item">
   <div class="pub-title"><a href="https://arxiv.org/abs/2508.13048">MAJIC: Markovian Adaptive Jailbreaking via Iterative Composition of Diverse Innovative Strategies</a></div>
   <div class="pub-authors"><strong>Weiwei Qi</strong>, Shuo Shao, Wei Gu, Tianhang Zheng, Puning Zhao, Zhan Qin, Kui Ren</div>
@@ -47,16 +60,10 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
     <a href="https://arxiv.org/abs/2508.13048">
       <img src="https://img.shields.io/badge/arXiv-2508.13048-b31b1b.svg" alt="arXiv">
     </a>
-    <a href="https://github.com/LilanOvO/AAAI-2026-MAJIC">
+    <a href="https://github.com/ZJU-LLM-Safety/MAJIC-AAAI2026">
       <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
     </a>
   </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-title"><a href="/files/3666_Towards_Identification_an.pdf">Towards Identification and Intervention of Safety-Critical Parameters in Large Language Models</a></div>
-  <div class="pub-authors">Weiwei Qi, Zefeng Wu, Tianhang Zheng, Zikang Zhang, Xiaojun Jia, Zhan Qin, Kui Ren</div>
-  <div class="pub-meta">ACL 2026 Submission (CCF-A) | First Author</div>
 </div>
 
 <span class='anchor' id='education'></span>
@@ -66,7 +73,20 @@ My goal is to help build safer, more reliable, and more trustworthy intelligent 
 
 <span class='anchor' id='projects'></span>
 # 🛠️ Projects
-- **2025.06**: DeepSeek-R1-Safe large-scale training (1024 Ascend GPUs), including environment deployment, safety data construction, and SFT for safety improvement.
+- **2026.04**: **Auto-Resubmit** is a practical open-source tool for lossless migration of LaTeX paper projects across conference templates such as ACL, NeurIPS, ICML, ICLR, CVPR, and AAAI, helping automate content extraction, template reassembly, compilation, and packaging for paper resubmission.
+  <a href="https://github.com/LilanOvO/Auto-Resubmit">
+    <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
+  </a>
+  <a href="https://github.com/LilanOvO/Auto-Resubmit">
+    <img src="https://img.shields.io/github/stars/LilanOvO/Auto-Resubmit?style=social" alt="GitHub stars">
+  </a>
+- **2025.06**: **DeepSeek-R1-Safe** is a safety-enhanced reasoning LLM jointly developed with Huawei on Ascend and MindSpeed-LLM, where I contributed to 1024-GPU large-scale training, safety data construction, safety-oriented supervised fine-tuning, and scalable deployment. The project emphasizes multidimensional safety corpus design, safety core reasoning pre-alignment, dynamic efficiency compensation during SFT, and fine-grained safety RL for jointly optimizing safety, alignment, and general reasoning capability.
+  <a href="https://github.com/ZJUAISafety/DeepSeek-R1-Safe">
+    <img src="https://img.shields.io/badge/Code-GitHub-black.svg?logo=github" alt="Code">
+  </a>
+  <a href="https://github.com/ZJUAISafety/DeepSeek-R1-Safe">
+    <img src="https://img.shields.io/github/stars/ZJUAISafety/DeepSeek-R1-Safe?style=social" alt="GitHub stars">
+  </a>
 
 <span class='anchor' id='awards'></span>
 # 🏆 Awards
